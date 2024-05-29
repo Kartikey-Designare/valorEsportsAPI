@@ -89,7 +89,7 @@ app.get("/result", function (req, res) {
         );
 
         matchResults.push({
-          match_event: match("div.match-item-event")
+          tournament_name: match("div.match-item-event")
             .clone()
             .children()
             .remove()
